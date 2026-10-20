@@ -2,15 +2,15 @@
 owner: rakuzen25 # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
+secrets:
+  - FIN_URL
+  - PWD_URL
+
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Fin
+    url: $FIN_URL
+  - name: Pwd
+    url: $PWD_URL
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -26,6 +26,16 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  themeUrl: https://rakuzen25.github.io/upptime/monokai-pro.css
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+
+assignees:
+  - rakuzen25
+  
+commitMessages:
+  readmeContent: "chore(upptime): :pencil: update summary in README [skip ci]"
+  summaryJson: "chore(upptime): :card_file_box: update status summary [skip ci]"
+  statusChange: "ci(upptime): $EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci]"
+  graphsUpdate: "chore(upptime): :bento: update graphs [skip ci]"
