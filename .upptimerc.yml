@@ -37,5 +37,5 @@ assignees:
 commitMessages:
   readmeContent: "chore(upptime): :pencil: update summary in README [skip ci]"
   summaryJson: "chore(upptime): :card_file_box: update status summary [skip ci]"
-  statusChange: "ci(upptime): $EMOJI $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci]"
+  statusChange: "$EMOJI ci(upptime): $SITE_NAME is $STATUS ($RESPONSE_CODE in $RESPONSE_TIME ms) [skip ci]"
   graphsUpdate: "chore(upptime): :bento: update graphs [skip ci]"
